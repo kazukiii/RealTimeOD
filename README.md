@@ -1,7 +1,3 @@
 # Real Time Object Detection
 ## demonstration
-
-
-
-https://user-images.githubusercontent.com/23211788/186125534-d65f7c73-dd35-47ea-96cd-ead1bc6d610d.mov
-
+![output](https://user-images.githubusercontent.com/23211788/186126317-ef038c11-f2d5-4153-b3d9-bb55fe14d0c8.gif)
