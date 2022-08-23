@@ -7,9 +7,10 @@ import torch
 
 
 class Yolov5:
-    def __init__(self, mode) -> None:
+    def __init__(self, mode, channel) -> None:
         self.model = torch.hub.load("ultralytics/yolov5", "yolov5s", pretrained=True)
         self.mode = mode
+        self.channel = channel
 
     def get_video_stream(self):
         if self.mode != "webcam":
@@ -18,7 +19,7 @@ class Yolov5:
             assert play is not None  # we want to make sure their is a input to read.
             stream = cv2.VideoCapture(play.url)  # create a opencv video stream.
         else:
-            stream = cv2.VideoCapture(0)
+            stream = cv2.VideoCapture(self.channel)
 
         return stream
 
