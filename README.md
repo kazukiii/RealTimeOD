@@ -1,4 +1,4 @@
-# Real Time Object Detection
+# Real-Time Object Detection
 ## Preparation
 the version of Python is below
 ```bash
@@ -12,7 +12,7 @@ $ curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-po
 reference: https://python-poetry.org/docs/
 ## Usage
 ```bash
-$ poetry Install # install the necessary libraries
+$ poetry install # install the necessary libraries
 $ poetry shell # enter the virtual environment
 $ python src/main.py # run this program
 ```
